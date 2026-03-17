@@ -7,12 +7,21 @@ import { SITE } from '../content/site';
 
 export const metadata: Metadata = {
   metadataBase: new URL(`https://${SITE.domain}`),
+
   title: {
     default: 'Баланс — фитнес-клуб со SPA и термальной зоной в Дубне',
     template: '%s | Баланс Дубна'
   },
+
   description:
     'Баланс в Дубне: фитнес, массаж, SPA и термальная зона. Тренировки, восстановление и отдых в одном пространстве.',
+
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico'
+  },
+
   openGraph: {
     title: 'Баланс — фитнес-клуб со SPA и термальной зоной в Дубне',
     description: 'Место, где занимаются телом, отдыхают и перезагружаются.',
